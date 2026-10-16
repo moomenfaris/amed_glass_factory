@@ -1,0 +1,54 @@
+{
+  "orders": [
+    {
+      "id": "ORD-2041",
+      "date": "2026-05-23T09:15:00.000",
+      "productType": "زجاج مزدوج",
+      "dimensions": "120 × 80 سم",
+      "totalMeters": 9.6,
+      "pricePerMeter": 45000,
+      "status": "inProduction",
+      "currentStage": "oven"
+    },
+    {
+      "id": "ORD-2038",
+      "date": "2026-05-22T12:30:00.000",
+      "productType": "زجاج ملون",
+      "dimensions": "100 × 60 سم",
+      "totalMeters": 6.0,
+      "pricePerMeter": 35000,
+      "status": "inProduction",
+      "currentStage": "coloring"
+    },
+    {
+      "id": "ORD-2031",
+      "date": "2026-05-20T11:00:00.000",
+      "productType": "زجاج لامينيت",
+      "dimensions": "200 × 90 سم",
+      "totalMeters": 18.0,
+      "pricePerMeter": 60000,
+      "status": "ready",
+      "currentStage": "readyForDelivery"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T-9001",
+      "date": "2026-05-23T09:16:00.000",
+      "orderId": "ORD-2041",
+      "amount": 432000,
+      "status": "مفتوح",
+      "type": "order",
+      "description": "طلب جديد ORD-2041"
+    },
+    {
+      "id": "T-8996",
+      "date": "2026-05-21T17:00:00.000",
+      "orderId": null,
+      "amount": -250000,
+      "status": "مكتمل",
+      "type": "payment",
+      "description": "دفعة نقدية"
+    }
+  ]
+}
